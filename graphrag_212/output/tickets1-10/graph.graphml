@@ -1,0 +1,46 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="CUSTOMER SUPPORT TEAM" />
+    <node id="CUSTOMER" />
+    <node id="CENTRALIZED ACCOUNT MANAGEMENT PORTAL" />
+    <node id="CUSTOMER SUPPORT" />
+    <node id="VPN-ROUTER" />
+    <node id="TELEMEDICINE SYSTEMS" />
+    <node id="EMR INTEGRATIONS" />
+    <node id="ACCOUNT" />
+    <node id="LASER PRINTER" />
+    <node id="MACBOOK PRO" />
+    <node id="MACOS 15" />
+    <node id="SUPPORT TEAM" />
+    <node id="COMPANY" />
+    <node id="MARKETING AGENCIES" />
+    <node id="AMAZON ALEXA" />
+    <node id="GOOGLE ASSISTANT" />
+    <node id="APPLE" />
+    <node id="PROJECT OPERATIONS" />
+    <node id="CLIENT INTERACTIONS" />
+    <node id="NETWORK HARDWARE CONNECTIVITY" />
+    <edge source="CUSTOMER SUPPORT TEAM" target="CUSTOMER" />
+    <edge source="CUSTOMER SUPPORT TEAM" target="CENTRALIZED ACCOUNT MANAGEMENT PORTAL" />
+    <edge source="CUSTOMER SUPPORT TEAM" target="ACCOUNT" />
+    <edge source="CUSTOMER SUPPORT TEAM" target="PROJECT OPERATIONS" />
+    <edge source="CUSTOMER SUPPORT TEAM" target="CLIENT INTERACTIONS" />
+    <edge source="CUSTOMER" target="CENTRALIZED ACCOUNT MANAGEMENT PORTAL" />
+    <edge source="CUSTOMER SUPPORT" target="VPN-ROUTER" />
+    <edge source="CUSTOMER SUPPORT" target="TELEMEDICINE SYSTEMS" />
+    <edge source="CUSTOMER SUPPORT" target="EMR INTEGRATIONS" />
+    <edge source="VPN-ROUTER" target="TELEMEDICINE SYSTEMS" />
+    <edge source="VPN-ROUTER" target="EMR INTEGRATIONS" />
+    <edge source="LASER PRINTER" target="MACBOOK PRO" />
+    <edge source="LASER PRINTER" target="MACOS 15" />
+    <edge source="MACBOOK PRO" target="MACOS 15" />
+    <edge source="SUPPORT TEAM" target="COMPANY" />
+    <edge source="COMPANY" target="MARKETING AGENCIES" />
+    <edge source="AMAZON ALEXA" target="GOOGLE ASSISTANT" />
+    <edge source="AMAZON ALEXA" target="APPLE" />
+    <edge source="GOOGLE ASSISTANT" target="APPLE" />
+    <edge source="PROJECT OPERATIONS" target="CLIENT INTERACTIONS" />
+    <edge source="PROJECT OPERATIONS" target="NETWORK HARDWARE CONNECTIVITY" />
+    <edge source="CLIENT INTERACTIONS" target="NETWORK HARDWARE CONNECTIVITY" />
+  </graph>
+</graphml>

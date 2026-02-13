@@ -1,0 +1,10 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="AMAZON ALEXA" />
+    <node id="GOOGLE ASSISTANT" />
+    <node id="APPLE" />
+    <edge source="AMAZON ALEXA" target="GOOGLE ASSISTANT" />
+    <edge source="AMAZON ALEXA" target="APPLE" />
+    <edge source="GOOGLE ASSISTANT" target="APPLE" />
+  </graph>
+</graphml>
