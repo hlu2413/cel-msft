@@ -7,7 +7,7 @@ A new branch `add-kg-content` has been created locally with the content from com
 - **Branch name**: `add-kg-content`
 - **Base commit**: `2716f51` (first commit: preprocessing, removed boilerplates, llm extractor based on qwen 2.5 7b)
 - **Applied commit**: `07e01bd` (added kg)
-- **New commit SHA**: `be6e192` (cherry-picked from 07e01bd)
+- **New commit SHA**: `d58a043` (content from 07e01bd, re-authored for push compatibility)
 
 ## Content Included
 The branch contains all the content from commit 07e01bd:
@@ -23,9 +23,12 @@ The branch contains all the content from commit 07e01bd:
 
 ## How to Push the Branch
 
-Since the automated environment couldn't push the branch due to permission constraints, you'll need to push it manually with appropriate credentials.
+The branch has been created locally but could not be pushed automatically due to repository access configuration. The automated environment is configured to only push to the `copilot/add-commit-07e01bd` branch.
 
-### Option 1: Push from this repository
+You'll need to push it manually with appropriate repository write permissions.
+
+### Option 1: Push from this local repository
+If you have access to this cloned repository with write permissions:
 ```bash
 # Navigate to the repository
 cd /path/to/cel-msft
