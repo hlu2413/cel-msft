@@ -17,3 +17,15 @@ This branch contains the content from commit `07e01bd98e62b17c5082d96464f442d2cf
 
 ### Note:
 This branch is independent and has NOT been merged with main or any other branch.
+
+### How to Access:
+The branch `add-kg-content` has been created locally. To push it to remote, run:
+```bash
+git push -u origin add-kg-content
+```
+
+Or to verify the branch locally:
+```bash
+git checkout add-kg-content
+git log --oneline
+```
